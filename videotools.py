@@ -414,9 +414,10 @@ def concat_mp4s(concatPath, vidPaths):
     # Build the concatenate command
     for (iVid, vid) in enumerate(vidPaths):
         concat = concat + ["-i", vid]
-        inputList = inputList + "[{}:0]".format(iVid)
+        inputList = inputList + "[{}:v:0]".format(iVid)
 
-    # Concatenate the videos
+    # Concatenate the videos. See https://trac.ffmpeg.org/wiki/Concatenate (concat filter)
+    # for more information about concatenation options and other approaches
     concat = concat + [
         "-filter_complex",
         inputList + "concat=n={}:v=1:a=0".format(len(vidPaths)) + "[out]",
