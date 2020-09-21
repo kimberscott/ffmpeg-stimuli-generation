@@ -31,8 +31,8 @@ Then install with as many as you want (`brew install homebrew-ffmpeg/ffmpeg/ffmp
 
 ## See also
 
-[Official ffmpeg documentation](https://ffmpeg.org/ffmpeg.html)
-[Common tasks in ffmpeg](https://www.labnol.org/internet/useful-ffmpeg-commands/28490/)
-[Ffmpeg snippets/cheatsheet gist](https://gist.github.com/martinruenz/537b6b2d3b1f818d500099dde0a38c5f)
-[Converting to mp4 and webm](https://gist.github.com/princenaman/174eae80f8269c759e4f3f7fe505ea54)
-[More snippets](https://jonlabelle.com/snippets/view/shell/ffmpeg-command)
+* [Official ffmpeg documentation](https://ffmpeg.org/ffmpeg.html)
+* [Common tasks in ffmpeg](https://www.labnol.org/internet/useful-ffmpeg-commands/28490/)
+* [Ffmpeg snippets/cheatsheet gist](https://gist.github.com/martinruenz/537b6b2d3b1f818d500099dde0a38c5f)
+* [Converting to mp4 and webm](https://gist.github.com/princenaman/174eae80f8269c759e4f3f7fe505ea54)
+* [More snippets](https://jonlabelle.com/snippets/view/shell/ffmpeg-command)
